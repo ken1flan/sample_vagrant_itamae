@@ -6,4 +6,10 @@ $ vagrant box add ubuntu_14_10 https://github.com/kraksoft/vagrant-box-ubuntu/re
 $ mkdir sample_vagrant_itamae
 $ cd sample_vagrant_itamae
 $ vagrant init
+$ vi Vagrantfile
+$ vagrant up
+```
+
+```ruby
+
 ```
