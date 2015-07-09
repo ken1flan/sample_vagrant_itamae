@@ -11,5 +11,4 @@ $ vagrant up
 ```
 
 ```ruby
-
 ```
