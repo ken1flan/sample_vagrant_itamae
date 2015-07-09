@@ -12,11 +12,7 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-<<<<<<< HEAD
   config.vm.box = "ubuntu_14_10"
-=======
-  config.vm.box = "base"
->>>>>>> c9b235fe5bcd54929338faaab0f3ce85b4b3c25b
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -42,10 +38,7 @@ Vagrant.configure(2) do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
-<<<<<<< HEAD
   config.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__exclude: ".git/"
-=======
->>>>>>> c9b235fe5bcd54929338faaab0f3ce85b4b3c25b
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
